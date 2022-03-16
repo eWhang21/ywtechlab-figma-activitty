@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Buda', cursive;
+}
+
+nav {
+    background-color: #FFF6E8;
+    margin: 0;
+    overflow: hidden;
+    height: 80px;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    line-height: 2em;
+    padding: 1em 1em;
+    font-size: 1.5em;
+}
+
+#logo {
+    margin: .5em;
+    line-height: 1.5em;
+    font-size: 3.8em;
+    color: #DC5252;
+}
+
+.about, .hours {
+    text-align: center;
+}
+
+.about_header {
+    padding-top: 1em;
+    font-size: 2.5em;
+}
+
+.about_text {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.hours_header {
+    font-size: 1.8em;
+    padding-top: 1em;
+}
+
+.hours_text {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+
+#three_pies {
+    display: block;
+    margin: 5% auto;
+}
+
+button{
+    background-color: #CB2943;
+    border: none;
+    padding: 20px 35px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: 60px auto;
+}
+
+
+.locations {
+    background-color: #FFF6E8;
+}
+
+.locations > p {
+    text-align: center;
+    font-size: 2.8em;
+    margin: 0;
+    padding-top: 5 Wes Loop St.0px;
+    line-height: 5em;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgs > img {
+    height: 8em;
+} 
+
+.imgs {
+    position: relative;
+    text-align: center;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-shadow: 1px 1px #181a18;
+    color: white;
+  }
+
+.address {
+      text-align: center;
+      padding-top: 20px;
+      padding-bottom:100px;
+      line-height: 1.3em;
+      
+}
+
+footer {
+    background-color: #EFE5D3;
+}
+
+.flex_container_socials {
+    display: flex;
+    justify-content: center;
+}
+
+.flex_container_socials img {
+    padding: 20px;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
