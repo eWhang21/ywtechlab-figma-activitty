@@ -7,8 +7,7 @@ nav {
     background-color: #FFF6E8;
     margin: 0;
     overflow: hidden;
-    height: 80px;
-    
+    height: 80px; 
 }
 
 nav ul {
@@ -64,7 +63,6 @@ nav ul li a {
     line-height: 1.5em;
 }
 
-
 #three_pies {
     display: block;
     margin: 5% auto;
@@ -81,7 +79,6 @@ button{
     margin: 60px auto;
 }
 
-
 .locations {
     background-color: #FFF6E8;
 }
@@ -90,7 +87,7 @@ button{
     text-align: center;
     font-size: 2.8em;
     margin: 0;
-    padding-top: 5 Wes Loop St.0px;
+    padding-top: 50px;
     line-height: 5em;
 }
 
@@ -99,14 +96,17 @@ button{
     justify-content: space-evenly;
 }
 
-.imgs > img {
+.location_imgs > img {
     height: 8em;
 } 
 
-.imgs {
+.location_imgs {
     position: relative;
     text-align: center;
-    
+}
+
+img {
+    vertical-align: middle;
 }
 
 .centered {
@@ -117,14 +117,13 @@ button{
     font-size: 1.5em;
     text-shadow: 1px 1px #181a18;
     color: white;
-  }
+}
 
 .address {
       text-align: center;
       padding-top: 20px;
       padding-bottom:100px;
       line-height: 1.3em;
-      
 }
 
 footer {
@@ -140,8 +139,21 @@ footer {
     padding: 20px;
 }
 
+.gallery {
+    background-color: black;
+}
+
 .grid_container {
     display: grid;
     grid-template-columns: auto auto auto;
+    padding: 8%;
+}
+
+.grid_container img {
+    height: 300px;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
