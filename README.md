@@ -9,8 +9,8 @@ Assignment:
 
 Part 1:
 
-Using the Figma Prototype given above, recreate the protoype in Figma from scratch.
+  Using the Figma Prototype given above, recreate the protoype in Figma from scratch.
 
 Part 2:
 
-Using the Figma Prototype given above, implement either the Home and/or Gallery webpages using HTML and CSS.
+  Using the Figma Prototype given above, implement either the Home and/or Gallery webpages using HTML and CSS.
